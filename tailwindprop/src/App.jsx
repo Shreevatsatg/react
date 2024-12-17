@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
-      <h1 className='text-3xl bg-green-500 p-3'>vite with tailwind</h1>
+      <h1 className='text-3xl bg-green-500 p-3'>profile</h1>
+     <Card username="shreevatsa"/>
+     <Card username="gagan"/>
      <Card />
 
     </>

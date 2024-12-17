@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Card(props) {
-console.log(props)
+function Card({username}) {
+console.log(username)
   return (
     <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
     <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://images.pexels.com/photos/29022983/pexels-photo-29022983/free-photo-of-coffee-and-cake-with-chestnut-decor.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" width="384" height="512"/>
@@ -12,10 +12,10 @@ console.log(props)
       </blockquote>
       <figcaption className="font-medium">
         <div className="text-sky-500 dark:text-sky-400">
-          shreevatsa
+         {username}
         </div>
         <div className="text-slate-700 dark:text-slate-500">
-          Software  Engineer, google
+          Software  Engineer
         </div>
       </figcaption>
     </div>
