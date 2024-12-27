@@ -13,9 +13,7 @@ function App() {
      <Card username="shreevatsa"/>
      <Card username="gagan"/>
      <Card />
-
     </>
   )
 }
-
 export default App
