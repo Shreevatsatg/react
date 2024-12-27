@@ -1,3 +1,3 @@
 started learning react
 # react
-couse till = 2:57
+course till = 2:57
