@@ -1,7 +1,7 @@
 import Button from "./Button"
 
 function App() {
-const name =shree
+const name ="shree"
   return (
   <>
    <Button/>

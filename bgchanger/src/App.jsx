@@ -23,7 +23,7 @@ onClick={()=>setcolor('green')}
 className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
 style={{backgroundColor:'green'}}>
   green
-  </button>
+  </button >
   <button 
 onClick={()=>setcolor('blue')}
 className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
