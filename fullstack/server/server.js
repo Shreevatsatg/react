@@ -1,20 +1,25 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from "express";
 import cors from "cors";
 
 const app = express();
 
-app.use(cors()); // enable CORS for all origins
 // OR more secure:
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
   })
 );
+
+console.log("Allowed Origin:", process.env.FRONTEND_URL);
 
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello shreevatsa tg!");
 });
 
 app.listen(3000, () => {

@@ -8,7 +8,7 @@ export default function App() {
 
     useEffect(() => {
       axios
-        .get("http://localhost:3000/")
+        .get("http://localhost:3000")
         .then((response) => {
           setdata(response.data); // update state with fetched data
         })
